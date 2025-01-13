@@ -10,7 +10,7 @@ public class Movment : MonoBehaviour
 
     private void Start()
     {
-        Transform parent = GameObject.Find("All Boxes")?.transform;
+        Transform parent = GameObject.Find("All Boxes 212")?.transform;
 
         if (parent == null || parent.childCount == 0)
         {
